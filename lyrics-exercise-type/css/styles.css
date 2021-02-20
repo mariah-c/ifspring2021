@@ -1,0 +1,73 @@
+body{
+    color:black;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: center;
+    font-family: "Arial";
+
+
+  background-image: url("https://i.pinimg.com/564x/b3/a1/7a/b3a17a0c4244dea7a394a98675957eae.jpg"), url("https://i.pinimg.com/564x/64/17/76/64177669e48e6b658b9afe8f0d86f575.jpg");
+  background-position: right, left;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed;
+
+    
+}
+
+header{
+    margin:auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 70px;
+    padding-left: 30px;
+    padding-top: 30px;
+    line-height: 30px;
+    
+}
+
+h2 {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 0px;
+}
+
+
+.left-column{
+    width: 25%;
+    text-align: left;
+    font-family: "arial"
+}
+
+.right-column{
+    width: 25%;
+    font-family: 'Carter One', cursive;
+    text-align: left;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.japanese{
+    font-family: 'Stick', sans-serif;
+
+}
+
+.english{
+    font-family: 'Staatliches', cursive;
+}
+
+.chorusENG{
+    font-style: italic;
+}
+
+.chorusJP{
+    font-style: italic;
+}
