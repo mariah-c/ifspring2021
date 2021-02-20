@@ -1,0 +1,84 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+}
+header{
+    font-size: 45px;
+   
+}
+body{
+    margin:auto;
+    padding-left: 100px;
+    background-color: rgb(255, 250, 244);
+
+}
+
+section{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+
+p{
+    padding-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+    
+}
+
+h3{
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 0px;
+    color: rgb(90, 90, 90);
+    
+}
+
+h4{
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.narrow{
+    letter-spacing: -0.06em;
+}
+
+.wide{
+    letter-spacing: 0.3em;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
