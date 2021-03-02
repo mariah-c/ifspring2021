@@ -1,0 +1,32 @@
+.box-layers{
+    background-color: #eeeeee;
+    padding: 2rem 1rem 4rem 1rem;
+    /* the browser will apply them to the element clockwise from the top (top right bottom left) */
+    border-top: 10px solid #dddddd;
+
+    margin: 4rem 0;
+    /* The first (4rem) is the vertical margin, the second (0) is the horizontal margin. This same shorthand works with padding. */
+}
+
+.h2-wrapper{
+    border: 1px solid black;
+}
+
+.box-sizing-example {
+    background-color: #eeeeee;
+    padding: 2rem;
+    border: 10px solid #dddddd;
+    width: 100%;
+    /* The net effect is that by setting width, we can inadvertently make things 'spill out' to the right */
+    box-sizing: border-box;
+    /* tells the browser that when we set a width, we're talking about the width of the box measured at the outer-edge of it's border-box, not the edge of the content-box */
+  }
+
+.overflow-example{
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+    overflow: auto;
+    
+}
+/* Don't set height on the box! */
