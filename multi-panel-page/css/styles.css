@@ -1,0 +1,122 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 18px;
+}
+
+.panel{
+    padding:40px;
+}
+
+.safe-area{
+    width: 960px;
+    margin:auto; 
+}
+
+header.panel .safe-area{
+    /* select the safe area thats inside the header panel */
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 140px;
+}
+
+header.panel h1{
+    font-size: 80px;
+    margin:0;
+}
+
+header.panel .subheading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feature.panel{
+    background-color: rgb(209, 243, 181);
+    
+}
+
+
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+h4{
+    margin: 0px 0 0 0;
+    font-size: 20px;
+}
+.italics{
+    font-style: italics;
+}
+
+#floatedimage{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    padding: 0 0 5px 20px;
+    object-position: left top;
+}
+
+.gallery.panel{
+    background-color: rgb(245, 247, 215);
+}
+
+.containerthing img{
+    width: 200px;
+    height:150px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+
+.containerthing{
+    display:inline-block;
+    margin-right: 33px;
+    margin-bottom: 2px;  
+}
+
+.caption{
+    display: inline-block;
+    width:230px;
+    height:100px;
+    vertical-align:top;
+}
+
+.caption p{
+    margin-block-start: 0.5em;
+}
+
+.conclusion.panel{
+    padding-top: 45px;
+    background-color: rgb(72, 118, 53);
+    color: ivory;
+}
+
+.conclusion.panel p {
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    line-height: 1.5em;
+}
+
+footer p {
+    padding-top: 38px;
+}
+
+footer{
+    background-color: rgb(120, 131, 80);
+}
+
+.intro{
+    background-image: url(https://images5.alphacoders.com/412/thumb-1920-412156.jpg);
+    background-position: center;
+    color: ivory;
+    
+}
