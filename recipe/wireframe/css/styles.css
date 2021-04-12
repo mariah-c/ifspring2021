@@ -1,6 +1,15 @@
 html{
-    max-width: 960px;
-    min-width: 320px;
+    /* max-width: 960px;
+    min-width: 320px; */
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto; margin-right: auto;
+    background-color: rgb(254, 249, 234);
+    
+    
+}
+
+header{
+    padding: 3%;
 }
 
 img{max-width: 90%;}
@@ -8,6 +17,7 @@ img{max-width: 90%;}
 body{
     margin-left: auto; margin-right: auto;
     width: 90%;
+    
     
 }
 
@@ -22,14 +32,80 @@ div{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10%;
     
     
+}
+
+.make div{
+    width: 25%;
 }
 
 
 @media(max-width: 640px){
     div{
         width: 100%;
+
     }
     
     }
+    
+    
+
+h1{
+    font-family: 'Righteous', cursive;
+    font-size: 5em;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    /* color:rgba(255, 197, 206, 0.915);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    
+}
+
+.picture{
+    display: inline-block;
+    object-position: right;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 0 0 0 5%;
+    width: 40%;
+    height:fit-content;
+    align-self: flex-start;
+}
+
+.credits{
+    
+    padding-top: 20%;
+    color: rgb(85, 84, 84);
+}
+
+.intro{
+    font-size: 2em;
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+    
+}
+
+/* .ingdiv{
+    align-self: center;
+}
+.instdiv{
+    align-self: center;
+} */
+
+/* p .intro{
+    float: left;
+} */
+
+@media (max-width:640px){
+    
+    h1{font-size: 3rem;}
+    h2{font-size: 1.2rem;}
+}
+
+@media (max-width:1200px){
+    .make div{width: 50%;}
+    .picture{width: 80%;}
+}
+
