@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  color: white;
+
+}
+[hidden] {
+  display: none !important;
+}
+
+body {
+  background-color:black;
+  font-family: "Roboto";
+  font-weight: 260;
+  
+}
+div{
+  display: inline-block;
+}
+.nav{
+  position: fixed;
+  right: 0;
+}
+.nav a{
+  font-size: 24pt;
+  text-decoration: none;
+  margin: 30px;
+  mix-blend-mode: difference;
+}
+
+
+h1{
+  font-family: "Playfair Display";
+  font-weight: 300;
+  width: 100%;
+  
+}
+
+.homeContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 100px;
+  height: 100vh;
+  margin-bottom:  200px;
+}
+
+.homeContainer h1{
+  font-family: "Playfair Display";
+  font-weight: 300;
+  width: 100%;
+  font-size: 100pt;
+  margin-top: 100px;
+}
+
+.section h1{
+  text-align: center;
+  font-size: 64pt;
+}
+
+.quote{
+  width: 640px;
+  margin: 25px;
+  font-size: 30pt;
+  line-height: 135%;
+  
+}
+
+.section{
+    padding: 125px;
+    width: 100vw;
+  vertical-align: top;
+}
+
+.description{
+  width:100%;
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 30pt;
+  
+}
+
+.index{
+  width: 400px;
+  margin-right: 100px;
+  flex-wrap: nowrap;
+  font-size: 30pt;
+}
+
+.index a{
+  width: 100%;
+  margin: 50px 0;
+}
+
+.index a:hover{
+  text-decoration: line-through;
+}
+
+.section .img{
+  width: calc(100% - 550px);
+  vertical-align:top;
+  background-color: white;
+}
+
+a:hover{
+  font-style: italic;
+}
+
+h2{
+  font-size: 24pt;
+  width: 100%;
+  font-weight: 300;
+}
+.subsection{
+    padding: 125px;
+    width: 100vw;
+  vertical-align: top;
+
+}
+
+.subsection h1{
+  text-align: center;
+  font-size: 72pt;
+}
+.wimage{
+  width: 75%;
+  padding-right: 50px;
+}
+.subsection img{
+  width: 25%;
+  vertical-align: top;
+  position: sticky;
+  top: 200px;
+}
+
+/* responsive */
+
+@media (max-width: 1000px){
+  .homeContainer h1{
+  font-size: 72pt;
+  }
+
+  .section h1{
+    font-size: 42pt;
+  }
+
+  .subsection h1{
+    font-size: 42pt;
+  }
+}
+
+@media (max-width: 753px){
+  .homeContainer h1{
+  font-size: 42pt;
+  }
+
+  .section h1{
+    font-size: 32pt;
+  }
+
+  .subsection h1{
+    font-size: 32pt;
+  }
+  h2{
+    font-size: 20pt;
+  }
+
+  .quote{
+    font-size: 20pt;
+  }
+
+  .description{
+    font-size: 20pt;
+  }
+
+  .index{
+    font-size: 20pt;
+    width: 100%;
+  }
+  .wimage{
+    width: 100%;
+    padding-right: 0px;
+  }
+  .subsection img{
+    width: 100%;
+  }
+  .nav{
+    top: 30px;
+  }
+.nav a{
+  font-size: 16pt;
+}
+}
+
+@media (max-width: 500px){
+.nav a{
+  font-size: 14pt;
+}
+}
+
+@media (max-width: 500px){
+  .homeContainer h1{
+  font-size: 32pt;
+  }
+
+  .section h1{
+    font-size: 28pt;
+  }
+
+  .subsection h1{
+    font-size: 28pt;
+  }
+  h2{
+    font-size: 18pt;
+  }
+
+  .quote{
+    font-size: 18pt;
+  }
+
+  .description{
+    font-size: 18pt;
+  }
+
+  .index{
+    font-size: 18pt;
+  }
+  body{
+    font-size: 12pt;
+  }
+  .homeContainer{
+  padding: 50px;
+  }
+  .section{
+  padding: 75px;
+  }
+  .subsection{
+  padding: 75px;
+  }
+
+}
+
+@media (max-width: 400px){
+  .homeContainer h1{
+  font-size: 28pt;
+  }
+
+  .section h1{
+    font-size: 24pt;
+  }
+
+  .subsection h1{
+    font-size: 24pt;
+  }
+  h2{
+    font-size: 16pt;
+  }
+
+  .quote{
+    font-size: 16pt;
+  }
+
+  .description{
+    font-size: 16pt;
+  }
+
+  .index{
+    font-size: 16pt;
+  }
+  body{
+    font-size: 12pt;
+  }
+  .homeContainer{
+  padding: 50px;
+  }
+  .section{
+  padding: 50px;
+  }
+  .subsection{
+  padding: 50px;
+  }
+
+}
