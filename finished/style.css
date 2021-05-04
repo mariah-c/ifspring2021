@@ -1,0 +1,449 @@
+* {
+  box-sizing: border-box;
+  color: white;
+
+}
+[hidden] {
+  display: none !important;
+}
+
+
+
+body {
+  background-color:black;
+  font-family: "Roboto";
+  font-weight: 260;
+  line-height: 1.5em;
+  font-size: 1.1rem;
+  
+}
+
+div{
+  display: inline-block;
+  max-width: 100%;
+}
+
+.topfade{
+  position: fixed;
+  top:0;
+  height: 8rem;
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.nav{
+  position: fixed;
+  right: 0;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  z-index: 1;
+}
+
+.nav a{
+  font-size: 24pt;
+  text-decoration: none;
+  margin: 30px;
+  mix-blend-mode: difference;
+}
+
+
+h1{
+  font-family: "Playfair Display";
+  font-weight: 300;
+  width: 100%;
+  padding-bottom: 3%;
+  line-height: 1.1em;
+}
+
+.homeContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 100px 100px 300px 100px;
+  margin-bottom:  100px;
+  background-image: url("assets/worm.jpg");
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 60%;
+  max-width: 100%;
+}
+
+.homeContainer h1{
+  font-family: "Playfair Display";
+  font-weight: 300;
+  width: 100%;
+  font-size: 100pt;
+  margin-top: 100px;
+}
+
+.section h1{
+  text-align: center;
+  font-size: 64pt;
+}
+
+.quote{
+  width: 640px;
+  margin: 25px;
+  font-size: 30pt;
+  line-height: 135%;
+  
+  
+}
+
+.section{
+    padding: 125px;
+    width: 100vw;
+  vertical-align: top;
+}
+
+
+
+.description{
+  width:100%;
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 30pt;
+  
+}
+
+.index{
+  width: 400px;
+  margin-right: 100px;
+  flex-wrap: nowrap;
+  font-size: 30pt;
+  line-height: 1.5em;
+}
+
+.index a{
+  width: 100%;
+  margin: 50px 0;
+}
+
+.index a:hover{
+  text-decoration: line-through;
+}
+
+
+.anatomyimage{
+  width: calc(100% - 600px);
+  vertical-align:top;
+  float: right;
+  position: sticky;
+  padding-top: 4em;
+  padding-right: 2em;
+  object-fit: cover;
+  top: 200px;
+}
+
+a:hover{
+  font-style: italic;
+}
+
+h2{
+  font-size: 24pt;
+  width: 100%;
+  font-weight: 300;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  line-height: 1.2;
+  text-decoration-thickness: 3px;
+}
+.subsection{
+    padding: 125px;
+    padding-bottom: 0.5em;
+    width: 100vw;
+  vertical-align: top;
+
+}
+
+.subsection h1{
+  text-align: center;
+  font-size: 72pt;
+}
+.wimage{
+  width: 75%;
+  padding-right: 50px;
+}
+.subsection img{
+  width: 24%;
+  vertical-align: top;
+  position: sticky;
+  top: 200px;
+}
+
+.endingquote{
+  font-size: 30pt;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+footer{
+  font-size: smaller;
+  font-weight: lighter;
+  color: gray;
+  padding-bottom: 0;
+  
+}
+
+/* responsive */
+
+@media (max-width: 1000px){
+  .homeContainer h1{
+  font-size: 72pt;
+  }
+
+  .section h1{
+    font-size: 42pt;
+  }
+
+  .subsection h1{
+    font-size: 42pt;
+  }
+
+}
+
+
+
+@media (max-width: 1200px){
+  .homeContainer{
+  padding: 100px 100px 250px 100px;
+  }
+  .homeContainer h1{
+  font-size: 42pt;
+  }
+  .section{
+    padding: 100px;
+  }
+
+  .subsection{
+    padding: 100px;
+    padding-bottom: 2em;
+  }
+
+  .section h1{
+    font-size: 32pt;
+  }
+
+  .subsection h1{
+    font-size: 32pt;
+  }
+  h2{
+    font-size: 20pt;
+  }
+
+  .quote{
+    font-size: 20pt;
+  }
+
+  .description{
+    font-size: 20pt;
+  }
+
+  .index{
+    font-size: 20pt;
+    width: 100%;
+  }
+  .wimage{
+    width: 100%;
+    padding-right: 0px;
+  }
+  .subsection img{
+    width: 60%;
+    padding-top: 2em;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav{
+    top: 30px;
+  }
+  .nav a{
+  font-size: 16pt;}
+
+  .topfade{
+    height: 12rem;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  }
+  
+  .anatomyimage{
+   width: 0%;
+  }
+}
+
+}
+
+
+
+
+@media (max-width: 850px){
+  .homeContainer{
+  padding: 100px 100px 250px 100px;
+  }
+  .homeContainer h1{
+  font-size: 42pt;
+  }
+  .section{
+    padding: px;
+    
+  }
+
+  .subsection{
+    padding: 40px;
+    
+
+    
+  }
+
+  .section h1{
+    font-size: 32pt;
+  }
+
+  .subsection h1{
+    font-size: 32pt;
+  }
+  h2{
+    font-size: 20pt;
+    text-decoration-thickness: 3px;
+  }
+
+  .quote{
+    font-size: 20pt;
+  }
+
+  .description{
+    font-size: 20pt;
+  }
+
+  .index{
+    font-size: 20pt;
+    width: 100%;
+  }
+  .wimage{
+    
+    padding-right: 0px;
+    align-content: center;
+  }
+  .subsection img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .nav{
+    top: 30px;
+  }
+.nav a{
+  font-size: 16pt;
+}
+.topfade{
+  height: 12rem;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+}
+
+@media (max-width: 650px){
+.nav a{
+  font-size: 14pt;
+}
+}
+
+@media (max-width: 650px){
+
+  .homeContainer h1{
+  font-size: 32pt;
+  }
+
+  .section h1{
+    font-size: 28pt;
+  }
+
+  .subsection h1{
+    font-size: 28pt;
+  }
+  h2{
+    font-size: 18pt;
+    text-decoration-thickness: 2px;
+  }
+
+  .quote{
+    font-size: 18pt;
+  }
+
+  .description{
+    font-size: 18pt;
+  }
+
+  .index{
+    font-size: 18pt;
+  }
+  body{
+    font-size: 12pt;
+  }
+  .homeContainer{
+  padding: 50px 50px 200px 50px;
+  }
+  .section{
+  padding: 20px;
+  }
+  .subsection{
+  padding: 20px;
+  }
+  .subsection img{
+    width: 40%;
+    padding-top:0;
+  }
+
+}
+
+@media (max-width: 400px){
+  .homeContainer h1{
+  font-size: 28pt;
+  }
+
+  .section h1{
+    font-size: 24pt;
+  }
+
+  .subsection h1{
+    font-size: 24pt;
+  }
+  h2{
+    font-size: 16pt;
+    text-decoration-thickness: 1px;
+  }
+
+  .quote{
+    font-size: 16pt;
+  }
+
+  .description{
+    font-size: 16pt;
+  }
+
+  .index{
+    font-size: 16pt;
+  }
+  body{
+    font-size: 12pt;
+  }
+  .section{
+  padding: 15px;
+  }
+  .subsection{
+  padding: 15px;
+  }
+  .subsection img{
+    width: 100%;
+    padding-top:0;
+  }
+  .homeContainer{
+    
+    background-position: 70% 100%;
+    background-size: 70%;
+    max-width: 100%;
+  }
+
+}
